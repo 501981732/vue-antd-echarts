@@ -5,5 +5,9 @@ module.exports = {
          javascriptEnabled: true
       }
     }
-  }
+  },
+  transpileDependencies: [
+    'vue-echarts',
+    'resize-detector'
+  ]
 }
